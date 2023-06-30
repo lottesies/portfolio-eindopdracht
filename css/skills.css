@@ -1,18 +1,22 @@
 
 * {box-sizing:border-box}
 
-.skillsbox {
-  display: flex;
-  align-items: center;
+.skilssbox {
+  margin: 10px;
+  border: 4px solid aquamarine;
+  border-radius: 30px;
+  padding-bottom: 20px;
+  width: 50%;
+  margin: 0 auto;
 }
 
 .container {
   width: 50%; 
   background-color: rgb(213, 255, 241); 
+  margin: 0 auto;
 }
 
 .skills {
-  text-align: right; /* Right-align text */
   padding-top: 10px; /* Add top padding */
   padding-bottom: 10px; /* Add bottom padding */
   color: black; /* White text color */
@@ -23,3 +27,13 @@
 .css {width: 80%; background-color: aquamarine;} 
 .js {width: 50%; background-color: aquamarine;} 
 .php {width: 20%; background-color: aquamarine;} 
+
+.skilltext {
+  width: 50%;
+  text-align: left;
+  padding-top: 10px;
+}
+
+.skillp {
+  padding-bottom: 50px;
+}
