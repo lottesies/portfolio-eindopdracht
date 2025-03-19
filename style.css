@@ -7,7 +7,6 @@ body {
 header {
     padding-top: 0px;
     background-color: aquamarine;
-    height: 100px;
     width: 100%;
 }
 
@@ -35,21 +34,23 @@ h1 {
 
 .nav-container {
     background-color: rgb(213, 255, 241);
-    padding: 20px;
     position: sticky;
     top: 0;
 }
 
 .navbar a {
     color: black;
-    padding: 20px;
+    padding: 15px;
     text-decoration: none;
     font-family: montserrat;
 }
 
 nav a:hover {
     background-color: aquamarine;
+    margin: 5px;
+    height: 5px;
     color: black;
+    border-radius: 20px;
 }
 
 h2 {
@@ -73,6 +74,7 @@ p {
     margin: 0 auto;
     width: 60%;
     text-align: justify;
+    font-size: 1.2em;
 }
 
 img {
@@ -89,8 +91,7 @@ img {
 
 .pic1 {
     margin: 0 auto;
-    padding-bottom: 5%;
-    padding-top: 2%;
+    padding-bottom: 4%;
     display: flex;
 }
 
@@ -102,7 +103,6 @@ img {
 
 footer {
     background-color: aquamarine;
-    height: 100px;
     width: 100%;
     margin-top: 5%;
 }
@@ -112,6 +112,7 @@ h4 {
     padding: 15px;
     margin: 0px;
     text-align: center;
+    font-family: montserrat;
 }
 
 .formulier {
@@ -140,4 +141,43 @@ h4 {
     padding: 10px;
 }
 
+.motivaties {
+    display: flex;
+    justify-content: center;
+}
 
+.moti {
+    width: 30%;
+    padding: 20px;
+    background-color: rgb(213, 255, 241);
+    margin: 10px;
+    border: 4px solid aquamarine;
+    border-radius: 30px;
+}
+
+.moti p {
+    width: 80%;
+    font-size: 1.1em;
+}
+
+.kwali {
+    width: 50%;
+    padding: 20px;
+    background-color: rgb(213, 255, 241);
+    margin: 0 auto;
+    border: 4px solid aquamarine;
+    border-radius: 30px;
+}
+
+.kwali p {
+    width: 90%;
+    font-size: 1.1em;
+}
+
+h5 {
+    font-size: 1.5em;
+    margin: 0px;
+    text-align: center;
+    font-family: montserrat;
+    padding-bottom: 5px;
+}
