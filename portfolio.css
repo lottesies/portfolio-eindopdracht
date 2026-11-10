@@ -1,0 +1,34 @@
+.portfoliopics {
+    display: flex;
+    justify-content: center;
+    flex-wrap: wrap;
+    padding-left: 50px;
+    padding-right: 50px;
+}
+
+.row-fit {
+    display: flex;
+}
+
+.row-fit::after {
+    display: none;   /* de clearfix uit style.css is hier niet nodig */
+}
+
+.row-fit .column,
+.row-fit .column2 {
+    float: none;
+    width: auto;
+    flex-basis: 0;   /* alleen flex-grow bepaalt de breedte */
+    min-width: 0;
+}
+
+@media (max-width: 600px) {
+    .row-fit {
+        flex-direction: column;
+    }
+    .row-fit .column,
+    .row-fit .column2 {
+        flex-grow: 0 !important;
+        flex-basis: auto;
+    }
+}
