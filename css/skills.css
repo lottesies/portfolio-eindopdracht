@@ -25,10 +25,9 @@
   border-radius: 30px;
 }
 
-.html {width: 90%; background-color: aquamarine; padding-left: 10px;}
-.css {width: 80%; background-color: aquamarine; padding-left: 10px;} 
-.js {width: 50%; background-color: aquamarine; padding-left: 10px;} 
-.figma {width: 70%; background-color: aquamarine; padding-left: 10px;} 
+.html {width: 80%; background-color: aquamarine; padding-left: 10px;}
+.css {width: 70%; background-color: aquamarine; padding-left: 10px;} 
+.figma {width: 60%; background-color: aquamarine; padding-left: 10px;} 
 
 .skilltext {
   width: 65%;
